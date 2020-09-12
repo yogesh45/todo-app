@@ -23,4 +23,7 @@
     .todo-edit, .todo-delete{
         cursor: pointer;
     }
+    .todo-edit.hidden {
+        visibility: hidden;
+    }
 }

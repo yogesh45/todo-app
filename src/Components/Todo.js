@@ -34,7 +34,7 @@ const Todo = (props) => {
                         <AddOrUpdateTodo isUpdate={true} index={editIndex} value={todo} toggle={toggleInput} />
                 }
             </div>
-            <feather.Edit2 className='todo-edit' onClick={() => editTodo(props.todoIndex)}/>
+            <feather.Edit2 className={ editIndex !== props.todoIndex ? 'todo-edit' : 'todo-edit hidden'} onClick={() => editTodo(props.todoIndex)}/> 
             <feather.Trash className='todo-delete' onClick={() => deleteTodo(props.todoIndex)}/>
         </div>
     )

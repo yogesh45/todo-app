@@ -12,7 +12,7 @@ const AddOrUpdateTodo = (props) => {
 
     useEffect(() => {
         setIndex(props.index);
-        setnewTodo(props.value)
+        setnewTodo(props.value ? props.value : '')
     },[props.index])
 
     //Add or Update
