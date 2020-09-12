@@ -1,0 +1,20 @@
+.todo-header{
+    background: #55747E;
+    display: flex;
+    padding:15px 30px;
+    .header-side-bar{
+        font-size: 24px;
+        color: #fff;
+        cursor: pointer;
+    }
+    .header-title{
+        padding-left:15px;
+        font-size: 24px;
+        color: #fff;
+    }
+    .header-searchIcon {
+        margin-top: 5px;
+        margin-left: auto;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,20 @@
+.addOrUpdateComp{
+    #addorupdateform {
+        input{
+            padding:10px;
+            border: 1px solid #9E9FA0;
+        }
+        #addTodo,
+        #cancelTodo {
+            padding: 5px;
+            margin: 10px;
+            width: 70px;
+        }
+    }
+    span.errorMsg {
+        font-size: 14px;
+        text-transform: none;
+        color: #F30833;
+    }
+}
+

@@ -1,0 +1,26 @@
+.todo {
+    padding: 20px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #ccc;
+    .todo-name {
+        width: 80%;
+        display: inline-block;
+        span{
+            color:#9E9FA0
+        }
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            margin: 10px 0px;
+        }
+    }
+    .todo-edit{
+        width:10%;
+        display: inline-block;
+    }
+    .todo-edit, .todo-delete{
+        cursor: pointer;
+    }
+}

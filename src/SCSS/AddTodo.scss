@@ -1,0 +1,13 @@
+.addTodo {
+    padding: 50px 30px;
+    font-size: 16px;
+    color: #55747E;
+    text-transform: uppercase;
+    cursor: pointer;
+    span{
+        font-size: 26px;
+    }
+    .todo-input{
+        margin-top:10px;
+    }
+}
